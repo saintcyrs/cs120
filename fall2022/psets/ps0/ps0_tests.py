@@ -93,7 +93,7 @@ def test():
         gen_tree(8).root,
         gen_tree(8).root.right,
         # Tests unbalanced tree
-        remove_branch(gen_tree(2), 1).root,
+        remove_branch(gen_tree(2),  1).root,
         remove_branch(gen_tree(3), 1).root,
         remove_branch(gen_tree(8), 1).root,
         remove_branch(gen_tree(8), 1).root,
