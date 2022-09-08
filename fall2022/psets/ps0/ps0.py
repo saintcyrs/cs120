@@ -55,7 +55,9 @@ def calculate_sizes(v):
 # Runtime: O(h)
 
 def find_vertex(r):
+    
     n = r.size 
+
     if r.left and r.right:
         if r.size < n/2:
             return r
