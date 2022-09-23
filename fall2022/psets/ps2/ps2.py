@@ -225,7 +225,7 @@ class BinarySearchTree:
                 # Rotate
                 x.right = y.left
                 y.left = x
-
+                
                 # Change y
                 self.right = y
 
